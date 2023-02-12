@@ -63,3 +63,15 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+## Next Steps
+
+* `source .venv/bin/activate` 
+* `pip install -r requirements.txt` 
+* `pip install -r requirements.txt` 
+
+### Synthesize a template from your app
+* `cdk ls` 
+* `cdk ls` 
+* `cdk ls` 
+* `cdk ls` 
