@@ -68,10 +68,19 @@ Enjoy!
 
 * `source .venv/bin/activate` 
 * `python3 -m pip install --upgrade pip` 
-* `pip install -r requirements.txt` 
+* `pip install -r requirements.txt`
+* `brew upgrade awscli` para MacOS 
+* `aws --version` 
+* `brew upgrade aws-cdk` para MacOS
+* `cdk --version`
 
 ### Synthesize a template from your app
 * `cdk ls` 
 * `cdk synth` 
-* `cdk ls` 
-* `cdk ls` 
+
+### Bootstrapping an environment
+Install the bootstrap stack into an environment:
+* `cdk bootstrap`
+
+## Acknowledgements
+- [The Python CDK Workshop](https://cdkworkshop.com/30-python.html)
