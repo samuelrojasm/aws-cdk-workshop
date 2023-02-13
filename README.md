@@ -81,7 +81,7 @@ Enjoy!
 
 ### Bootstrapping an environment
 Install the bootstrap stack into an environment:
-- * `cdk bootstrap --profile profile_name` with the use of [AWS IAM Identity Center](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) (previous configuration)
+- `cdk bootstrap --profile profile_name` with the use of [AWS IAM Identity Center](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html) (previous configuration)
 - Create stack on the Cloudformation of the account in the profile: This stack includes resources needed to deploy AWS CDK apps into this environment
 - We can use the AWS CloudFormation console in order to manage the stacks.
 
@@ -91,4 +91,4 @@ Install the bootstrap stack into an environment:
 
 ## Acknowledgements
 - [The Python CDK Workshop](https://cdkworkshop.com/30-python.html)
-- [Automatic authentication refresh for AWS IAM Identity] (https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html)
+- [Automatic authentication refresh for AWS IAM Identity](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html)
