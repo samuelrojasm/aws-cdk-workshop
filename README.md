@@ -87,7 +87,7 @@ Install the bootstrap stack into an environment:
 
 ### Let’s deploy
 - Use `cdk deploy --profile profile_name` to deploy a CDK app
-- On AWS Cloudformaion Console is **cdk-workshop** we can open the **Resources tab**, we will see the physical identities of our resources.
+- On AWS Cloudformation Console is **cdk-workshop** we can open the **Resources tab**, we will see the physical identities of our resources.
 
 ## Acknowledgements
 - [The Python CDK Workshop](https://cdkworkshop.com/30-python.html)
